@@ -1,0 +1,122 @@
+[
+  {
+    "id": "P01",
+    "category": "behavioral",
+    "prompt": "Tell me about yourself in one minute.",
+    "expects": ["structured answer", "relevant to role", "concise"]
+  },
+  {
+    "id": "P02",
+    "category": "behavioral",
+    "prompt": "Why do you want to join this company?",
+    "expects": ["company-specific reasoning", "motivation", "clarity"]
+  },
+  {
+    "id": "P03",
+    "category": "behavioral",
+    "prompt": "Describe a time you handled conflict in a team.",
+    "expects": ["situation-action-result", "ownership", "communication"]
+  },
+  {
+    "id": "P04",
+    "category": "behavioral",
+    "prompt": "What is one weakness and how are you improving it?",
+    "expects": ["honesty", "improvement plan", "professional framing"]
+  },
+  {
+    "id": "P05",
+    "category": "behavioral",
+    "prompt": "How do you prioritize tasks under pressure?",
+    "expects": ["framework", "tradeoffs", "execution"]
+  },
+  {
+    "id": "P06",
+    "category": "ml-theory",
+    "prompt": "Explain bias-variance tradeoff in simple words.",
+    "expects": ["definition", "tradeoff clarity", "simple explanation"]
+  },
+  {
+    "id": "P07",
+    "category": "ml-theory",
+    "prompt": "What is overfitting and how do you prevent it?",
+    "expects": ["definition", "regularization/cv", "examples"]
+  },
+  {
+    "id": "P08",
+    "category": "ml-theory",
+    "prompt": "Difference between precision and recall?",
+    "expects": ["clear distinction", "use case", "formula mention"]
+  },
+  {
+    "id": "P09",
+    "category": "ml-theory",
+    "prompt": "When would you use F1 score?",
+    "expects": ["class imbalance", "precision-recall balance", "context"]
+  },
+  {
+    "id": "P10",
+    "category": "ml-theory",
+    "prompt": "What is cross-validation and why is it useful?",
+    "expects": ["method", "generalization", "model selection"]
+  },
+  {
+    "id": "P11",
+    "category": "data",
+    "prompt": "How do you handle missing values in a dataset?",
+    "expects": ["diagnosis", "imputation strategy", "impact awareness"]
+  },
+  {
+    "id": "P12",
+    "category": "data",
+    "prompt": "How would you detect data leakage?",
+    "expects": ["pipeline awareness", "split discipline", "feature checks"]
+  },
+  {
+    "id": "P13",
+    "category": "data",
+    "prompt": "How do you evaluate a model before production?",
+    "expects": ["offline metrics", "validation strategy", "risk checks"]
+  },
+  {
+    "id": "P14",
+    "category": "coding",
+    "prompt": "Write a SQL query for second highest salary.",
+    "expects": ["correct SQL concept", "edge case awareness", "clarity"]
+  },
+  {
+    "id": "P15",
+    "category": "coding",
+    "prompt": "How do you optimize a slow Python data pipeline?",
+    "expects": ["profiling", "bottleneck strategy", "practical tactics"]
+  },
+  {
+    "id": "P16",
+    "category": "production",
+    "prompt": "If model accuracy drops in production, what do you check first?",
+    "expects": ["drift checks", "data quality", "rollback/monitoring"]
+  },
+  {
+    "id": "P17",
+    "category": "production",
+    "prompt": "What metrics should you monitor after deployment?",
+    "expects": ["model + system metrics", "alerts", "business impact"]
+  },
+  {
+    "id": "P18",
+    "category": "product",
+    "prompt": "How do you explain model decisions to non-technical stakeholders?",
+    "expects": ["plain language", "examples", "limitations"]
+  },
+  {
+    "id": "P19",
+    "category": "edge",
+    "prompt": "ask me hard qstn fr ml engg role pls",
+    "expects": ["robust to typos", "keeps context", "professional tone"]
+  },
+  {
+    "id": "P20",
+    "category": "edge",
+    "prompt": "I have no experience but completed 2 projects. Can I still get selected?",
+    "expects": ["encouraging", "actionable next steps", "realistic guidance"]
+  }
+]
