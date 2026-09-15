@@ -59,7 +59,7 @@ It's built as a single-file Streamlit app, but under the hood it includes severa
 - Automated end-of-interview scoring (1–10) with letter grade and written feedback
 - One-click "Delete Chat" to restart the conversation without re-filling the setup form
 
-**LLM infrastructure**
+**LLM infrastructure**  
 - Routed through the [Portkey AI Gateway](https://portkey.ai/) — one OpenAI-compatible integration instead of separate provider SDKs
 - Automatic fallback: tries Groq first, falls back to Gemini only if Groq is unavailable
 - Round-robin load balancing across multiple virtual keys per provider (avoids single-key rate limits)
